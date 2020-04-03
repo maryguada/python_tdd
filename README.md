@@ -36,6 +36,7 @@ In broad strokes, the steps of a TDD development cycle is as follows:
 5) Refactor
 
 ________________________________ UNIT TESTS ________________________________ 
+
 ASSERT METHODS 
 Asserting a Result
 Now that we have the structure of our test, it is time to start validating that are existing code works. To do this, there is a set of methods that the TestCase class provides, known as assert methods.
@@ -56,9 +57,7 @@ assertIsInstance(a, b)	isinstance(a, b)    	3.2
 assertNotIsInstance(a, b)|| not isinstance(a, b) || 3.2
 There are quite a few different options, and the usage of each depends on the scenario. 
 
-
-
-
+SUMMARY 
 1. `import unittest` and create a class that inherits from `unittest.TestCase`
 2. Define a method beginning with `test` so it will get run by TestCase
 3. Determine which assert method is most appropriate for the function we are testing
